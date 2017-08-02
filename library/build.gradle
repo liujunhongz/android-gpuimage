@@ -55,7 +55,8 @@ android {
             from tasks["javadoc${variant.name.capitalize()}"]
         }
     }
+    buildToolsVersion '25.0.3'
 }
 
 apply from: 'android-artifacts.gradle'
-apply from: 'central-publish.gradle'
+//apply from: 'central-publish.gradle'
